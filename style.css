@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, rgb(135, 0, 0) 17%, rgb(190, 15, 15), rgb(230, 45, 35));
+    background-attachment: fixed;
+}
+
+div.logo img {
+    padding: 1px;
+    height: auto;
+    width: 18%;
+    margin: 5px;
+}
+@media only screen and ( min-width: 0px ){
+
+    div.frontDisplay h1{
+    text-align: center;
+    color: rgb(255, 226, 189);
+    font-size: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 25%;
+    margin-top: 10%;
+    }
+    div.opcoes li {
+    font-size: 9px;
+    text-shadow: 1px 1px 3px rgb(255, 110, 110);
+    color: rgb(250, 203, 203);
+    box-shadow: 2px 2px 10px rgba(212, 46, 87, 0.39);
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    }
+ 
+}
+@media only screen and ( min-width: 400px ){
+
+    div.frontDisplay h1{
+        text-align: center;
+        color: rgb(255, 226, 189);
+        font-size: 13px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 23%;
+        margin-top: 10%;
+    }
+    div.opcoes li {
+        font-size: 13px;
+        text-shadow: 1px 1px 3px rgb(255, 110, 110);
+        color: rgb(250, 203, 203);
+        box-shadow:inset 3px 3px 10px rgba(212, 46, 87, 0.39);
+        border-radius: 10%;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        }
+}
+
+@media only screen and ( min-width: 700px ){
+
+    div.frontDisplay h1{
+        text-align: center;
+        color: rgb(255, 226, 189);
+        font-size: 17px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 14%;
+        margin-top: 6%;
+    }
+    div.opcoes li {
+        font-size: 19px;
+        text-shadow: 1px 1px 3px rgb(255, 110, 110);
+        color: rgb(250, 203, 203);
+        box-shadow:inset 6px 6px 10px rgba(212, 46, 87, 0.39);
+        border-radius: 10%;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        }
+}
+@media only screen and ( min-width: 1100px ){
+
+    div.frontDisplay h1{
+        text-align: center;
+        color: rgb(255, 226, 189);
+        font-size: 31px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    div.opcoes li {
+        font-size: 19px;
+        text-shadow: 1px 1px 3px rgb(255, 110, 110);
+        color: rgb(250, 203, 203);
+        box-shadow:inset 7px 7px 10px rgba(212, 46, 87, 0.39);
+        border-radius: 10%;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        }
+}
+
+div.opcoes ul {
+    list-style: none;
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    text-align: center;
+    margin: 8%;
+    text-align: center;
+}
+div.opcoes img {
+    width: 75%;
+    height: 75%;
+
+    margin-top: 10px;
+}
+
